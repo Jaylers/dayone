@@ -7,11 +7,16 @@
 
 .aligner-item {
   max-width: 50%;
+  flex:1;
 }
 
+.title {
+  margin: 0px 0px 0px 8px;
+  display: inline-block;
+}
 .fa {
   padding: 20px;
-  font-size: 20px !important;
+  font-size: 43px !important;
   width: 20px;
   height: 20px;
   text-align: center;
