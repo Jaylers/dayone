@@ -1,8 +1,44 @@
-body {
-    background-color: lightblue;
+body{
+    background-color: black;
 }
 
-h1 {
-    color: navy;
-    margin-left: 20px;
+#container{
+    margin: 0 auto;
+    width: 800px;
+    height: 600px;
+    border: 1px solid black;
+}
+
+header{
+    width: 800px;
+    height: 150px;
+    border: 1px solid black;
+    background-color: #cccccc;
+}
+
+nav{
+    float: left;
+    width: 200px;
+    height: 447px;
+    border: 1px solid black;
+}
+
+aside{
+    float: right;
+    width: 200px;
+    height: 447px;
+    border: 1px solid black;
+
+}
+
+article{
+    margin: 0 auto;
+    width: 396px;
+    height: 447px;
+    border: 1px solid black;
+    background-image: url("img/stang.jpg");
+}
+
+footer{
+    text-align: center;
 }
