@@ -26,27 +26,41 @@ h1{
 nav{
     float: left;
     width: 200px;
-    height: 447px;
+    height: 100%;
     border: 1px solid white;
 }
 
-aside{
+/*aside{
     float: right;
     width: 200px;
     height: 447px;
     border: 1px solid white;
 
-}
+}*/
 
 article{
+    float: right;
     margin: 0 auto;
-    width: 396px;
-    height: 447px;
+    width: 596px;
+    height: 100%;
     border: 1px solid white;
     
 }
 
+.img{
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+p{
+    color: white;
+}
+
 footer{
+    margin: 3px;
     text-align: center;
     color: white;
 }
