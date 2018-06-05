@@ -7,7 +7,7 @@ body, html {
 }
 
 .navbar {
-background-color: rgba(0,123,255,.25);
+background-color: #2c3e50;
 }
 .circle {
     height: 256px;
@@ -27,5 +27,5 @@ background-color: rgba(0,123,255,.25);
  .footer {
      bottom: 0;
      padding-top: 5rem;
-     background-color: rgba(0,123,255,.25);
+     background-color: #2c3e50;
  }
