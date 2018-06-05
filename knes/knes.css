@@ -5,7 +5,13 @@ body, html {
 .button {
     cursor: pointer;
 }
-
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
 .navbar {
 background-color: #2c3e50;
 }
@@ -26,6 +32,17 @@ background-color: #2c3e50;
 
  .footer {
      bottom: 0;
-     padding-top: 5rem;
+     padding-top: 2rem;
      background-color: #2c3e50;
  }
+ .icon {
+      color: #ffffff;
+      bottom: 0;
+      padding-top: 2.5rem;
+      padding-left: 10px;
+      }
+  .circle2{
+      border-radius: 50%;
+      height: 500px;
+      width: 500px;
+  }
