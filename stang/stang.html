@@ -3,7 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Antimony STANG</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/stang_css.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+    
+    
 </head>
 
 <body>
@@ -13,12 +20,13 @@
         </header>
 
         <nav>
-            <ul class="navbar">
-                <li><a href="index.html">Home</a>
-                <li><a href="musings.html">About me</a>
-                <li><a href="town.html">Contact me</a>
-                <li><a href="links.html">Back to index</a>
+            <ul class="nav nav-tabs">
+                <li><a href="stang.html">Home</a></li>
+                <li><a data-toggle="tab" href="#Aboutme">About me</a></li>
+                <li><a data-toggle="tab" href="#Contact">Contact</a></li>
+                <li><a href="../index.html">Back to index</a></li>
             </ul>
+
         </nav>
 
 
@@ -26,13 +34,33 @@
 
 
         <article>
-            <img class="img" src="img/stang.jpg">
-            <p>ชื่อ - นามสกุล: อนงค์นาฏ มหาวัง</p>
+            <img class="img-circle" src="img/stang.jpg" alt="Cinque Terre" width="304" height="236">
+            <div class="tab-content">
+                <div id="home" class="tab-pane fade in active">
+                    <h3>Introduction</h3><br>
+
+                    <p class="p1">Hello I'm a internship. This website is for introduce myself.</p>
+                </div>
+                <div id="Aboutme" class="tab-pane fade">
+                    <h3>About me</h3>
+                    <p class="p1">Name : Anongnat </p>
+                    <p class="p1">Lastname : Mahawang </p>
+                    <p class="p1">Nickname : Stang </p>
+                    <p class="p1">Education : Computer Science at Chiangmai University </p>
+
+
+                </div>
+                <div id="Contact" class="tab-pane fade">
+                    <h3>Contact</h3>
+                    <a class="fa" href="https://www.facebook.com/anantimony.bnmtwosj">&#xf082;</a> Antimony Stang
+                    <i class="fa">&#xf003;</i> anongnatmahawang@gmai
+                </div>
+            </div>
         </article>
 
 
         <footer>
-            by antystang
+            <p>by antystang</p>
         </footer>
         
 

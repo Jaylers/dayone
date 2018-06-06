@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    font-family: 'Inconsolata', sans-serif;
 }
 
 #container{
@@ -23,11 +24,15 @@ h1{
     vertical-align: middle;
 
 }
+h3{
+     background-color: #DC143C;
+}
 nav{
     float: left;
     width: 200px;
     height: 100%;
-    border: 1px solid white;
+    background-color: black;
+    /*border: px solid white;*/
 }
 
 /*aside{
@@ -43,21 +48,36 @@ article{
     margin: 0 auto;
     width: 596px;
     height: 100%;
+    color: white;
     border: 1px solid white;
     
 }
 
-.img{
+.fa{
+    margin: 30px;
+    font-size:48px;
+    /*background-color: white;*/
+}
+
+.fa1{
+    font-size:48px;
+}
+
+.img-circle{
     display: block;
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    /*width: 30%;*/
+}
+.p1{
+    margin-left: 30px;
 }
 
-p{
+/*p{
     color: white;
 }
+*/
 
 footer{
     margin: 3px;
